@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    background-image: url(/images/bg2.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    padding: 0 70px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul li{
+    justify-content: center;
+    padding: 0 10px;
+}
+ul li a{
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: skyblue;
+    text-decoration: none;
+    padding: 8px;
+}
+ul li a:hover{
+    background-color: skyblue;
+    color: antiquewhite;
+}
+.logo{
+    padding:10px;
+    cursor: pointer;
+}
+.text-box{
+margin-top: 10%;
+margin-left: 40%;
+}
+.text-box h1{
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 80px;
+    margin-bottom: 10px;
+    color: rgb(159, 155, 163);
+}
+.text-box h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(236, 223, 236);
+    line-height: 35px;
+}
+.btn{
+    padding: 10px 20px;
+    color:#fff;
+    background-color: skyblue;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: larger;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    background-color: skyblue;
+    margin-left: 80%;
+    margin-top: 5%; ;
+}
+.download a{
+    text-decoration: none;
+    color: white;
+}
+.download img {
+    width: 30px;
+    padding: 2px;
+}
+span{
+    color: skyblue;
+}
+span:hover{
+    background-color: #fff;
+    border-radius: 50%;
+    color: rgb(89, 89, 248);
+}
